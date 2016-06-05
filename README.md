@@ -17,7 +17,7 @@
 ### 难点
 
 我所认为的里面最让人难于理解的估计就是url反转了，下面单独的拿出来讲解一下。
-- {% url 'blog_get_blogs' %} 可以看作是 reverse 方法的“模板语言”版，其作用是根据 URLConf 中的 name 定义对 url 进行反解析，转换成真实的 URL 地址。比如这里在转换之后会变成 “/”。如果所指定的 url 定义中包含参数，则需要将参数跟在后面，如 {% url 'blog_get_detail' blog.id %}；
+- {% url 'blog_get_blogs' %} 可以看作是 reverse 方法的“模板语言”版，其作用是根据 URLConf 中的 name 定义对 url 进行反解析，转换成真实的 URL 地址。比如这里在转换之后会变成 “/”。如果所指定的 url 定义中包含参数，则需要将参数跟在后面，如 {% url 'blog_get_detail' blog.id %}；或者参考下面的这篇文章[reverse 应用在选票系统上](http://www.cnblogs.com/fnng/p/4855743.html)
 - 观察表单的内容，{% csrf_token %} 用于防跨域请求，可参考一些关于 CSRF 相关的资料并阅读 Django 官方文档关于这一块实现的描述。{% for field in form %}{% endfor %} 是对表单的各个 field 进行迭代并生成相应的表单元素，并对校验过程中出现的错误进行显示以提示用户做相应的修改。最后还生成一个 button 用于点击提交评论。
 
 ### 最后
