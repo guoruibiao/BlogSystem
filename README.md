@@ -1,6 +1,12 @@
 # BlogSystem
 使用Django制作的一款博客系统
 
+![详情页](https://github.com/guoruibiao/BlogSystem/raw/master/BeautifyShow/%E5%8A%A0%E5%85%A5%E4%BA%86Bootstrap%E7%9A%84%E5%8D%9A%E6%96%87%E7%95%8C%E9%9D%A2.png)
+
+![列表页](https://github.com/guoruibiao/BlogSystem/raw/master/BeautifyShow/%E5%8A%A0%E5%85%A5%E4%BA%86Bootstrap%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%97%E8%A1%A8%E7%95%8C%E9%9D%A2.png)
+
+
+
 ## 功能
 
 用户可以发布博客，删除修改博客；
